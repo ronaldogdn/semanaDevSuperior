@@ -1,10 +1,11 @@
 package com.ronaldo.pesquisa.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import com.ronaldo.pesquisa.entities.Game;
 import com.ronaldo.pesquisa.entities.Genre;
 
+@Repository
 public interface GenreRepository extends JpaRepository<Genre, Long>{
 
 }
